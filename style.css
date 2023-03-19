@@ -1,0 +1,67 @@
+body{
+
+    background-color: rgb(255, 255, 231);
+    /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/lum3n--RBuQ2PK_L8-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh
+}
+
+.form-body{
+    padding: 60px;
+    font-size:larger;
+    border: 2px solid orange;
+    border-radius: 4px;
+    padding: 0%;
+    margin-top:45px;
+    width:800px;
+   margin-left:330px;
+   background-color: antiquewhite;
+}
+
+.form-body{
+    background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+ }
+
+input{
+    margin: 8px;
+    padding: 8px;
+    width: 95%;
+    padding-top: 16px;
+    border-radius: 4px;
+}
+#date{
+width:45%;
+}
+.btn{
+    width:97%;
+    margin: 8px;
+    padding: 8px;
+    background-color: orange;
+    padding-top: 16px;
+}
+hr{
+    border: 1px solid orange;
+}
+.heading{
+text-align: center;
+}
+h2{
+    color: orange;
+}
+h4{
+    font-size: medium;
+    font-family: cursive;
+}
+
+label{
+    padding-left: 12px;
+}
+

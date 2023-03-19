@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+</head>
+<style>
+    body{
+
+    background-color: rgb(255, 255, 231);
+    /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/lum3n--RBuQ2PK_L8-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh
+}
+
+.form-body{
+    padding: 60px;
+    font-size:larger;
+    border: 2px solid orange;
+    border-radius: 4px;
+    padding: 0%;
+    margin-top:45px;
+    width:800px;
+   margin-left:330px;
+}
+
+.form-body{
+    background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+ }
+
+input{
+    margin: 8px;
+    padding: 8px;
+    width: 95%;
+    padding-top: 16px;
+    border-radius: 4px;
+}
+#date{
+width:45%;
+}
+.btn{
+    width:97%;
+    margin: 8px;
+    padding: 8px;
+    background-color: orange;
+    padding-top: 16px;
+}
+hr{
+    border: 1px solid orange;
+}
+.heading{
+text-align: center;
+}
+h2{
+    color: orange;
+}
+h4{
+    font-size: medium;
+    font-family: cursive;
+}
+
+label{
+    padding-left: 12px;
+}
+
+
+</style>
+<body>
+    <div class="form-body" >
+        <form action="#" onsubmit="onsingup(event)">
+            <!-- <img src="./images/pexels-tirachard-kumtanom-733857.jpg" alt=""> -->
+            <h2 class="heading">Book a call</h2>
+            <h4 class="heading">book a call slot and our representative will call you within selected time</h4>
+            <hr>
+            <label for="name">Name</label><br>
+            <input type="text" class="name" name="username" placeholder="Enter your name here"><br>
+            <label for="emil">Email</label><br>
+            <input type="email" class="email" name="email" placeholder="Enter your email here"><br>
+            <label for="phone-no">Phone-No</label><br>
+            <input type="text" class="phone-no" name="phone" placeholder="Enter your pnone-no here"><br>
+            <label for="time">Time for Call</label><br>
+            <input type="date" id="date" name="dake">
+            <input type="time" id="date" name="time"><br>
+            <button class="btn">GET A CALL</button>
+           
+
+        </form>
+    </div>
+
+    
+    <script>
+        function onsingup(event){
+            event.preventDefault();
+            console.log(event.target.username.value);
+            console.log(event.target.email.value);
+            console.log(event.target.phone.value);
+            console.log(event.target.time.value);
+            console.log(event.target.dake.value);
+        }
+    </script>
+</body>
+</html>
